@@ -1,0 +1,87 @@
+####################################
+# ===== GENERAL =====
+####################################
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+####################################
+# ===== PYTHON / DJANGO =====
+####################################
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Django stuff
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations (optional: only ignore if auto-generated and safe)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+####################################
+# ===== NODE / REACT (VITE) =====
+####################################
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Vite files
+.vite/
+
+# Package lock files (optional — usually you KEEP this)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+####################################
+# ===== IDE / EDITOR =====
+####################################
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+####################################
+# ===== TYPE SCRIPT =====
+####################################
+
+*.tsbuildinfo
+
+####################################
+# ===== MISC =====
+####################################
+
+coverage/
