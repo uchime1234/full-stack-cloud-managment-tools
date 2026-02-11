@@ -71,7 +71,7 @@ Role	Value Proposition
 Most tools stop at the service level (e.g., "EC2"). We go 3 levels deeper:
 
 
-EC2 Instance
+EC2 Instance  
 ├── Compute (t3.large @ $0.0832/hr)  
 ├── EBS Volume (gp3 @ $0.08/GB-month + IOPS)  
 ├── Elastic IP (attached - free)  
